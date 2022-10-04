@@ -18,6 +18,7 @@ header{
 /* This will apply any included styles to the body element */
 body{
     font-family: Arial, sans-serif;
+    background-color: #f7e6ff;
 }
 
 /* Create your own classes below! */
@@ -47,4 +48,61 @@ ul {
   
   li a:hover {
     background-color: rgb(53, 55, 184);
+  }
+
+  .rounded-corner-solid-border {
+    border-radius: 20px;
+    border: 1px solid #790f79;
+    padding: 20px;
+    width: 400px;
+    text-align: justify;
+  }
+
+  .complimentary-green {
+    background-color: #e6ffeb;
+  }
+
+  .complimentary-yellow {
+    background-color: #fbffe6;
+  }
+
+  img {
+    width: 400px;
+    object-fit: contain;
+  }
+
+  .text-box-container {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .text-box-container-stacked {
+    display: flex;
+    align-content: flex-start;
+    display: block;
+  }
+
+  .div-class-1 {
+    height: 100vh;
+    width: 100%;
+  }
+
+  .div-class-2 {
+    height: 100vh;
+    width: 100%;
+  }
+
+  .tile-background-image {
+    background-image: url("../images/coffee.jpg");
+  }
+
+  .background-image {
+    background-image: url("../images/coffee.jpg");
+    background-repeat: no-repeat;
+  }
+
+  .background-image-fullscreen {
+    background-image: url("../images/coffee.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
   }
