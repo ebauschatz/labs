@@ -30,6 +30,7 @@ ul {
     position: fixed;
     top: 0;
     width: 100%;
+    display: block;
     background-color: rgb(73, 31, 153);
   }
   
@@ -66,7 +67,7 @@ ul {
     background-color: #fbffe6;
   }
 
-  img {
+  .image-box {
     width: 400px;
     object-fit: contain;
   }
