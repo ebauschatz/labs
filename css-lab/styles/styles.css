@@ -13,6 +13,7 @@ header{
     margin-left: auto;
     margin-right: auto;
     margin-bottom: -75px;
+    padding-top: 75px;
 }
 
 /* This will apply any included styles to the body element */
