@@ -1,0 +1,50 @@
+
+/* This will apply all included styles to the header element */
+header{
+    font-size: 70px;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+/* This will apply all included styles to any element which uses the "logo" class*/
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -75px;
+}
+
+/* This will apply any included styles to the body element */
+body{
+    font-family: Arial, sans-serif;
+}
+
+/* Create your own classes below! */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgb(73, 31, 153);
+  }
+  
+  li {
+    float: left;
+    border-right: 2px solid rgb(245, 227, 253);
+  }
+  
+  li a {
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: rgb(53, 55, 184);
+  }
