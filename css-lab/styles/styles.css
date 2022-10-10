@@ -79,7 +79,6 @@ ul {
   }
 
   .text-box-container-stacked {
-    display: flex;
     align-content: flex-start;
     display: block;
   }
