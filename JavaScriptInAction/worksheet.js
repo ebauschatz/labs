@@ -140,6 +140,4 @@ while (magicNumber !== guess) {
     if (Math.abs(magicNumber - inputInt) <= 10) {
         console.log("Getting warmer!");
     }
-
-
 }
